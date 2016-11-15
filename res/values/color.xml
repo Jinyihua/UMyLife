@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color">#A0A0A0</color>
+    <color name="my_green">#43AF75</color>
+    <color name="my_orange">#F7C369</color>
+    <color name="my_pick">#F57E7F</color>
+</resources>

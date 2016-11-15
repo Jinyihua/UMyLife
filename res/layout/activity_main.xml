@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.umylife.MainActivity" >
+
+    
+
+    <com.example.bean.MyViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioGroup"
+        android:layout_below="@id/inc" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/home"
+            style="@style/UMyLifeStyle"
+            android:checked="true"
+            android:drawableTop="@drawable/home_selector"
+            android:text="@string/home" />
+
+        <RadioButton
+            android:id="@+id/order"
+            style="@style/UMyLifeStyle"
+            android:drawableTop="@drawable/order_selector"
+            android:text="@string/order" />
+
+        <RadioButton
+            android:id="@+id/hotstyle"
+            style="@style/UMyLifeStyle"
+            android:drawableTop="@drawable/hot_style_selector"
+            android:text="@string/hot_style" />
+
+        <RadioButton
+            android:id="@+id/myselt"
+            style="@style/UMyLifeStyle"
+            android:drawableTop="@drawable/myself_selector"
+            android:text="@string/myself" />
+    </RadioGroup>
+
+</RelativeLayout>

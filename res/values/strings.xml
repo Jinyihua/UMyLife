@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">U我生活</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">首页</string>
+    <string name="order">订单</string>
+    <string name="hot_style">爆款</string>
+    <string name="myself">我的</string>
+    <string name="umylife">U我生活</string>
+    <string name="air_clean">空调清洗</string>
+    <string name="wash_clean">洗衣机清洗</string>
+    <string name="lamp_clean">油烟机清洗</string>
+    <string name="hour_clean">钟点保洁</string>
+    <string name="plumbing">管道疏通</string>
+    <string name="more">更多服务</string>
+    <string name="all_rb">全部</string>
+    <string name="obligation_rb">待付款</string>
+    <string name="for_the_goods_rb">待收货</string>
+    <string name="to_comment_on_rb">待评论</string>
+
+</resources>

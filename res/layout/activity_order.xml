@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/inc_order"
+        layout="@layout/order_title" />
+
+    <RadioGroup
+        android:id="@+id/order_rg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inc_order"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/all_rb"
+            style="@style/UMyLifeStyle"
+            android:checked="true"
+            android:drawableBottom="@drawable/tab_selector"
+            android:text="@string/all_rb"
+            android:textColor="@color/my_green"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/obligation_rb"
+            style="@style/UMyLifeStyle"
+            android:drawableBottom="@drawable/tab_selector"
+            android:text="@string/obligation_rb"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/for_the_goods_rb"
+            style="@style/UMyLifeStyle"
+            android:drawableBottom="@drawable/tab_selector"
+            android:text="@string/for_the_goods_rb"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/to_comment_on_rb"
+            style="@style/UMyLifeStyle"
+            android:drawableBottom="@drawable/tab_selector"
+            android:text="@string/to_comment_on_rb"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <!--
+    <LinearLayout
+        android:id="@+id/cursorarea"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/order_rg"
+        android:background="#CDCDCD"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:background="@drawable/tab_selector">
+        </ImageView>
+    </LinearLayout>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/order_rg" />
+    
+
+</RelativeLayout>
